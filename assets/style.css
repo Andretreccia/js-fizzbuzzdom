@@ -6,12 +6,14 @@
 }
 body{
     background-color:#183A4A;
+    font-family: 'Roboto', sans-serif;
 }
 /* utility */
 .title{
     text-align: center;
     font-size: 6rem;
     color: white;
+    margin: 2rem;
 }
 .container{
     width: 1000px;
