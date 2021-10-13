@@ -7,18 +7,26 @@ for (let i = 1; i <= 100; i++) {
 //all interno del ciclo inserire le condizioni con le quali individuare i multipli di 3 e 5
     //condizione nella quale i è divisibile per 3 con resto 0 (i con % =  0 funzionerà??)
     if (i % 3 == 0) {
-        console.log('multiploditre');
+        let number = document.createElement("i");
+        number.innerHTML = "fizz"
+        document.getElementById("list").appendChild(number)
+        //console.log('multiploditre');
     }
     //condizione nella quale i è divisibile per 5 con resto 0 (i con % =  0 funzionerà??)
     else if (i % 5 == 0) {
-        console.log('multiplodicinque');
+        let number = document.createElement("i");
+        number.innerHTML = "buzz"
+        document.getElementById("list").appendChild(number)
+        //console.log('multiplodicinque');
     }
     //se non è un multiplo delle condizioni precedenti allora visualizza il numero
     else {
-        console.log(i)
+        let number = document.createElement("i");
+        number.innerHTML = i
+        document.getElementById("list").appendChild(number)
+        //console.log(i)
     }
 }
 
 
 
-//far creare i deversi elementi in base alle condizioni impostate
