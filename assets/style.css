@@ -1,0 +1,44 @@
+/* Common */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#183A4A;
+}
+/* utility */
+.title{
+    text-align: center;
+    font-size: 6rem;
+    color: white;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+}
+
+.listnone{
+    list-style: none;
+    display: flex;
+    
+    flex-wrap: wrap;
+}
+.box{
+    height: 110px;
+    width: 110px;
+    background-color: #3D88AE;
+    margin: 1rem;
+    line-height: 120px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.fizz{
+    background-color: #61D2A4;
+}
+.buzz{
+    background-color: #F9D277 ;
+}
+.fizzbuzz{
+    background-color: #DE5471 ;
+}
